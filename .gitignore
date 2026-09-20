@@ -2,27 +2,34 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
+.eggs/
+build/
+dist/
 .venv/
 venv/
+env/
 
-# ---- tts_doctor ----
+# ---- tts_doctor 產出 ----
 *.log
+self_test.log
 tts_doctor_report.json
 
-# ---- audio (never push anyone's voice samples) ----
+# ---- 音訊（本工具不該把使用者的聲音樣本推上去）----
 *.wav
 *.mp3
 *.flac
 *.m4a
+*.ogg
 
-# ---- model weights (huge, personal) ----
+# ---- 模型權重（非常大，且屬於個人）----
 *.ckpt
 *.pth
 *.onnx
 *.safetensors
 
-# ---- editors / OS ----
+# ---- 編輯器 / 系統 ----
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+desktop.ini
