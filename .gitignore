@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ---- tts_doctor ----
+*.log
+tts_doctor_report.json
+
+# ---- audio (never push anyone's voice samples) ----
+*.wav
+*.mp3
+*.flac
+*.m4a
+
+# ---- model weights (huge, personal) ----
+*.ckpt
+*.pth
+*.onnx
+*.safetensors
+
+# ---- editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
